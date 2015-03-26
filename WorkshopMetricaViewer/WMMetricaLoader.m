@@ -4,7 +4,7 @@
 
 #import "WMMetricaLoader.h"
 
-static NSString *const kWMAppApiKey = @"37550";
+static NSString *const kWMAppApiKey = @"37970";
 static NSString *const kWMAppToken = @"0e491c59ad834583b4e397ddf7ce9d9e";
 static NSString *const kWMTargetDate = @"today";
 
