@@ -1,0 +1,20 @@
+/*
+  Copyright (c) 2015 Yandex. All rights reserved.
+*/
+
+"AppTitle" = "Метрика: Графики";
+"Platforms" = "Платформа";
+"Users" = "Пользователи";
+"Age" = "Возраст";
+"Gender" = "Пол";
+"Education" = "Курс";
+"Work" = "Работаете";
+"Absence" = "Почему пропускаете пары";
+"Rating" = "Как вам воркшоп?";
+
+"WindowsPhone" = "Win Phone";
+"iOS" = "iOS";
+"android" = "Android";
+
+"ActiveUsers" = "Активные пользователи";
+"NewUsers" = "Новые пользователи";

@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416D73E21AC03F680094720B /* WMChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D73E11AC03F680094720B /* WMChartViewController.m */; };
+		416D73E51AC04B430094720B /* WMPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D73E41AC04B430094720B /* WMPieChartViewController.m */; };
+		416D73E81AC06C2A0094720B /* WMBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D73E71AC06C2A0094720B /* WMBarChartViewController.m */; };
+		416D73EC1AC14F8F0094720B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416D73EA1AC14F8F0094720B /* Localizable.strings */; };
+		416D74361AC2F07E0094720B /* WMMetricaLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D74351AC2F07E0094720B /* WMMetricaLoader.m */; };
+		416D743C1AC2F9B30094720B /* WMPlatformsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D743B1AC2F9B30094720B /* WMPlatformsParser.m */; };
+		416D743F1AC2FCA50094720B /* WMUsersParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D743E1AC2FCA50094720B /* WMUsersParser.m */; };
+		416D74451AC302410094720B /* WMUserInfoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D74441AC302410094720B /* WMUserInfoParser.m */; };
+		419EC9B21ABF165100F76F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EC9B11ABF165100F76F04 /* main.m */; };
+		419EC9B51ABF165100F76F04 /* WMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EC9B41ABF165100F76F04 /* WMAppDelegate.m */; };
+		419EC9B81ABF165100F76F04 /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EC9B71ABF165100F76F04 /* WMMainViewController.m */; };
+		419EC9BD1ABF165100F76F04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419EC9BC1ABF165100F76F04 /* Images.xcassets */; };
+		419EC9C01ABF165100F76F04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 419EC9BE1ABF165100F76F04 /* LaunchScreen.xib */; };
+		EBCDB29D1CADADF670234E07 /* libPods-WorkshopMetricaViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747A619A1A167998252013B /* libPods-WorkshopMetricaViewer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		419EC9C61ABF165100F76F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419EC9A41ABF165100F76F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419EC9AB1ABF165100F76F04;
+			remoteInfo = WorkshopMetricaViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C393FFE57D33B3631312D92 /* Pods-WorkshopMetricaViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopMetricaViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopMetricaViewer/Pods-WorkshopMetricaViewer.release.xcconfig"; sourceTree = "<group>"; };
+		416D73E01AC03F680094720B /* WMChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMChartViewController.h; sourceTree = "<group>"; };
+		416D73E11AC03F680094720B /* WMChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMChartViewController.m; sourceTree = "<group>"; };
+		416D73E31AC04B430094720B /* WMPieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPieChartViewController.h; sourceTree = "<group>"; };
+		416D73E41AC04B430094720B /* WMPieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPieChartViewController.m; sourceTree = "<group>"; };
+		416D73E61AC06C2A0094720B /* WMBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBarChartViewController.h; sourceTree = "<group>"; };
+		416D73E71AC06C2A0094720B /* WMBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBarChartViewController.m; sourceTree = "<group>"; };
+		416D73EB1AC14F8F0094720B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		416D74341AC2F07E0094720B /* WMMetricaLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMetricaLoader.h; path = WorkshopMetricaViewer/WMMetricaLoader.h; sourceTree = SOURCE_ROOT; };
+		416D74351AC2F07E0094720B /* WMMetricaLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMetricaLoader.m; path = WorkshopMetricaViewer/WMMetricaLoader.m; sourceTree = SOURCE_ROOT; };
+		416D743A1AC2F9B30094720B /* WMPlatformsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMPlatformsParser.h; path = WorkshopMetricaViewer/WMPlatformsParser.h; sourceTree = SOURCE_ROOT; };
+		416D743B1AC2F9B30094720B /* WMPlatformsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMPlatformsParser.m; path = WorkshopMetricaViewer/WMPlatformsParser.m; sourceTree = SOURCE_ROOT; };
+		416D743D1AC2FCA50094720B /* WMUsersParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMUsersParser.h; path = WorkshopMetricaViewer/WMUsersParser.h; sourceTree = SOURCE_ROOT; };
+		416D743E1AC2FCA50094720B /* WMUsersParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMUsersParser.m; path = WorkshopMetricaViewer/WMUsersParser.m; sourceTree = SOURCE_ROOT; };
+		416D74421AC302280094720B /* WMMetricaDataParserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMetricaDataParserProtocol.h; sourceTree = "<group>"; };
+		416D74431AC302410094720B /* WMUserInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUserInfoParser.h; sourceTree = "<group>"; };
+		416D74441AC302410094720B /* WMUserInfoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserInfoParser.m; sourceTree = "<group>"; };
+		419EC9AC1ABF165100F76F04 /* WorkshopMetricaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkshopMetricaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419EC9B01ABF165100F76F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419EC9B11ABF165100F76F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		419EC9B31ABF165100F76F04 /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		419EC9B41ABF165100F76F04 /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
+		419EC9B61ABF165100F76F04 /* WMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMainViewController.h; sourceTree = "<group>"; };
+		419EC9B71ABF165100F76F04 /* WMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMainViewController.m; sourceTree = "<group>"; };
+		419EC9BC1ABF165100F76F04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		419EC9BF1ABF165100F76F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		419EC9C51ABF165100F76F04 /* WorkshopMetricaViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkshopMetricaViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		419EC9CA1ABF165100F76F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9747A619A1A167998252013B /* libPods-WorkshopMetricaViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkshopMetricaViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42DC70AD6C6831402CA4A2F /* Pods-WorkshopMetricaViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopMetricaViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopMetricaViewer/Pods-WorkshopMetricaViewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419EC9A91ABF165100F76F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCDB29D1CADADF670234E07 /* libPods-WorkshopMetricaViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EC9C21ABF165100F76F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416D73E91AC14EDC0094720B /* ViewColntroller */ = {
+			isa = PBXGroup;
+			children = (
+				419EC9B61ABF165100F76F04 /* WMMainViewController.h */,
+				419EC9B71ABF165100F76F04 /* WMMainViewController.m */,
+				416D73E01AC03F680094720B /* WMChartViewController.h */,
+				416D73E11AC03F680094720B /* WMChartViewController.m */,
+				416D73E31AC04B430094720B /* WMPieChartViewController.h */,
+				416D73E41AC04B430094720B /* WMPieChartViewController.m */,
+				416D73E61AC06C2A0094720B /* WMBarChartViewController.h */,
+				416D73E71AC06C2A0094720B /* WMBarChartViewController.m */,
+			);
+			name = ViewColntroller;
+			sourceTree = "<group>";
+		};
+		416D74411AC3020A0094720B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				416D74421AC302280094720B /* WMMetricaDataParserProtocol.h */,
+				416D743A1AC2F9B30094720B /* WMPlatformsParser.h */,
+				416D743B1AC2F9B30094720B /* WMPlatformsParser.m */,
+				416D743D1AC2FCA50094720B /* WMUsersParser.h */,
+				416D743E1AC2FCA50094720B /* WMUsersParser.m */,
+				416D74431AC302410094720B /* WMUserInfoParser.h */,
+				416D74441AC302410094720B /* WMUserInfoParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		419EC9A31ABF165100F76F04 = {
+			isa = PBXGroup;
+			children = (
+				419EC9AE1ABF165100F76F04 /* WorkshopMetricaViewer */,
+				419EC9C81ABF165100F76F04 /* WorkshopMetricaViewerTests */,
+				419EC9AD1ABF165100F76F04 /* Products */,
+				9784763B66D73BC6B8509BF8 /* Pods */,
+				A21FC2E28DF7F3046406D172 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		419EC9AD1ABF165100F76F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419EC9AC1ABF165100F76F04 /* WorkshopMetricaViewer.app */,
+				419EC9C51ABF165100F76F04 /* WorkshopMetricaViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419EC9AE1ABF165100F76F04 /* WorkshopMetricaViewer */ = {
+			isa = PBXGroup;
+			children = (
+				416D74411AC3020A0094720B /* Parser */,
+				7F99B4BB1AC0476C007650D2 /* Network */,
+				419EC9B31ABF165100F76F04 /* WMAppDelegate.h */,
+				419EC9B41ABF165100F76F04 /* WMAppDelegate.m */,
+				416D73E91AC14EDC0094720B /* ViewColntroller */,
+				419EC9BC1ABF165100F76F04 /* Images.xcassets */,
+				416D73EA1AC14F8F0094720B /* Localizable.strings */,
+				419EC9BE1ABF165100F76F04 /* LaunchScreen.xib */,
+				419EC9AF1ABF165100F76F04 /* Supporting Files */,
+			);
+			path = WorkshopMetricaViewer;
+			sourceTree = "<group>";
+		};
+		419EC9AF1ABF165100F76F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419EC9B01ABF165100F76F04 /* Info.plist */,
+				419EC9B11ABF165100F76F04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		419EC9C81ABF165100F76F04 /* WorkshopMetricaViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				419EC9C91ABF165100F76F04 /* Supporting Files */,
+			);
+			path = WorkshopMetricaViewerTests;
+			sourceTree = "<group>";
+		};
+		419EC9C91ABF165100F76F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419EC9CA1ABF165100F76F04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F99B4BB1AC0476C007650D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				416D74341AC2F07E0094720B /* WMMetricaLoader.h */,
+				416D74351AC2F07E0094720B /* WMMetricaLoader.m */,
+			);
+			name = Network;
+			path = network;
+			sourceTree = "<group>";
+		};
+		9784763B66D73BC6B8509BF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B42DC70AD6C6831402CA4A2F /* Pods-WorkshopMetricaViewer.debug.xcconfig */,
+				0C393FFE57D33B3631312D92 /* Pods-WorkshopMetricaViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21FC2E28DF7F3046406D172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9747A619A1A167998252013B /* libPods-WorkshopMetricaViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419EC9AB1ABF165100F76F04 /* WorkshopMetricaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419EC9CF1ABF165100F76F04 /* Build configuration list for PBXNativeTarget "WorkshopMetricaViewer" */;
+			buildPhases = (
+				0DAF2253DE155EE8B173561D /* Check Pods Manifest.lock */,
+				419EC9A81ABF165100F76F04 /* Sources */,
+				419EC9A91ABF165100F76F04 /* Frameworks */,
+				419EC9AA1ABF165100F76F04 /* Resources */,
+				C49EE426269C35F6CF998C2C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkshopMetricaViewer;
+			productName = WorkshopMetricaViewer;
+			productReference = 419EC9AC1ABF165100F76F04 /* WorkshopMetricaViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419EC9C41ABF165100F76F04 /* WorkshopMetricaViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419EC9D21ABF165100F76F04 /* Build configuration list for PBXNativeTarget "WorkshopMetricaViewerTests" */;
+			buildPhases = (
+				419EC9C11ABF165100F76F04 /* Sources */,
+				419EC9C21ABF165100F76F04 /* Frameworks */,
+				419EC9C31ABF165100F76F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419EC9C71ABF165100F76F04 /* PBXTargetDependency */,
+			);
+			name = WorkshopMetricaViewerTests;
+			productName = WorkshopMetricaViewerTests;
+			productReference = 419EC9C51ABF165100F76F04 /* WorkshopMetricaViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419EC9A41ABF165100F76F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Yandex;
+				TargetAttributes = {
+					419EC9AB1ABF165100F76F04 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					419EC9C41ABF165100F76F04 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 419EC9AB1ABF165100F76F04;
+					};
+				};
+			};
+			buildConfigurationList = 419EC9A71ABF165100F76F04 /* Build configuration list for PBXProject "WorkshopMetricaViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419EC9A31ABF165100F76F04;
+			productRefGroup = 419EC9AD1ABF165100F76F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419EC9AB1ABF165100F76F04 /* WorkshopMetricaViewer */,
+				419EC9C41ABF165100F76F04 /* WorkshopMetricaViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419EC9AA1ABF165100F76F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419EC9C01ABF165100F76F04 /* LaunchScreen.xib in Resources */,
+				416D73EC1AC14F8F0094720B /* Localizable.strings in Resources */,
+				419EC9BD1ABF165100F76F04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EC9C31ABF165100F76F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAF2253DE155EE8B173561D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C49EE426269C35F6CF998C2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkshopMetricaViewer/Pods-WorkshopMetricaViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419EC9A81ABF165100F76F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416D73E51AC04B430094720B /* WMPieChartViewController.m in Sources */,
+				416D743F1AC2FCA50094720B /* WMUsersParser.m in Sources */,
+				419EC9B81ABF165100F76F04 /* WMMainViewController.m in Sources */,
+				416D73E81AC06C2A0094720B /* WMBarChartViewController.m in Sources */,
+				419EC9B51ABF165100F76F04 /* WMAppDelegate.m in Sources */,
+				416D74451AC302410094720B /* WMUserInfoParser.m in Sources */,
+				419EC9B21ABF165100F76F04 /* main.m in Sources */,
+				416D74361AC2F07E0094720B /* WMMetricaLoader.m in Sources */,
+				416D73E21AC03F680094720B /* WMChartViewController.m in Sources */,
+				416D743C1AC2F9B30094720B /* WMPlatformsParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EC9C11ABF165100F76F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419EC9C71ABF165100F76F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419EC9AB1ABF165100F76F04 /* WorkshopMetricaViewer */;
+			targetProxy = 419EC9C61ABF165100F76F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416D73EA1AC14F8F0094720B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416D73EB1AC14F8F0094720B /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		419EC9BE1ABF165100F76F04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419EC9BF1ABF165100F76F04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416D744C1AC344600094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		416D744D1AC344600094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C393FFE57D33B3631312D92 /* Pods-WorkshopMetricaViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WorkshopMetricaViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewer;
+			};
+			name = AdHoc;
+		};
+		416D744E1AC344600094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaViewer.app/WorkshopMetricaViewer";
+			};
+			name = AdHoc;
+		};
+		416D74521AC344760094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		416D74531AC344760094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C393FFE57D33B3631312D92 /* Pods-WorkshopMetricaViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WorkshopMetricaViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewer;
+			};
+			name = AppStore;
+		};
+		416D74541AC344760094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaViewer.app/WorkshopMetricaViewer";
+			};
+			name = AppStore;
+		};
+		419EC9CD1ABF165100F76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		419EC9CE1ABF165100F76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419EC9D01ABF165100F76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42DC70AD6C6831402CA4A2F /* Pods-WorkshopMetricaViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WorkshopMetricaViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewer;
+			};
+			name = Debug;
+		};
+		419EC9D11ABF165100F76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C393FFE57D33B3631312D92 /* Pods-WorkshopMetricaViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WorkshopMetricaViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewer;
+			};
+			name = Release;
+		};
+		419EC9D31ABF165100F76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaViewer.app/WorkshopMetricaViewer";
+			};
+			name = Debug;
+		};
+		419EC9D41ABF165100F76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaViewerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaViewer.app/WorkshopMetricaViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419EC9A71ABF165100F76F04 /* Build configuration list for PBXProject "WorkshopMetricaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419EC9CD1ABF165100F76F04 /* Debug */,
+				419EC9CE1ABF165100F76F04 /* Release */,
+				416D744C1AC344600094720B /* AdHoc */,
+				416D74521AC344760094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419EC9CF1ABF165100F76F04 /* Build configuration list for PBXNativeTarget "WorkshopMetricaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419EC9D01ABF165100F76F04 /* Debug */,
+				419EC9D11ABF165100F76F04 /* Release */,
+				416D744D1AC344600094720B /* AdHoc */,
+				416D74531AC344760094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419EC9D21ABF165100F76F04 /* Build configuration list for PBXNativeTarget "WorkshopMetricaViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419EC9D31ABF165100F76F04 /* Debug */,
+				419EC9D41ABF165100F76F04 /* Release */,
+				416D744E1AC344600094720B /* AdHoc */,
+				416D74541AC344760094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419EC9A41ABF165100F76F04 /* Project object */;
+}
