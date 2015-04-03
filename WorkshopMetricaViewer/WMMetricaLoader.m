@@ -6,7 +6,8 @@
 
 static NSString *const kWMAppApiKey = @"37970";
 static NSString *const kWMAppToken = @"0e491c59ad834583b4e397ddf7ce9d9e";
-static NSString *const kWMTargetDate = @"today";
+static NSString *const kWMFromDate = @"2015-03-26"; // The day of workshop
+static NSString *const kWMToDate = @"today";
 
 static NSString *const kWMMetricaDataURL = @"https://beta.api-appmetrika.yandex.ru/stat/v1/data";
 static NSString *const kWMMetricaDrilldownPostfix = @"/drilldown";
@@ -42,7 +43,8 @@ static NSString *const kWMMetricaDrilldownPostfix = @"/drilldown";
     NSMutableDictionary *fullParameters = [parameters mutableCopy];
     fullParameters[@"ids"] = kWMAppApiKey;
     fullParameters[@"oauth_token"] = kWMAppToken;
-    fullParameters[@"date1"] = kWMTargetDate;
+    fullParameters[@"date1"] = kWMFromDate;
+    fullParameters[@"date2"] = kWMToDate;
 
     NSString *parametersString = [[self class] stringWithJoinedParameters:fullParameters];
 
